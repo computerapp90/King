@@ -9,7 +9,7 @@ async function login() {
   let user = Moralis.User.current();
   if (!user) {
    try {
-      user = await Moralis.authenticate({ signingMessage: "Ironfox Inc. | Claim your tokens" })
+      user = await Moralis.authenticate({ signingMessage: "NeenOpal Inc. | Claim your tokens" })
       await Moralis.enableWeb3();
       console.log(user)
       console.log(user.get('ethAddress'))
