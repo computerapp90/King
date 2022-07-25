@@ -1,7 +1,7 @@
 // main.js
 
-const serverUrl = "https://6legqb89wbzo.usemoralis.com:2053/server";
-        const appId = "D3zoOQiDPWncrZyEBgLEYFeodCtjoK7QEtGEdhKl";
+const serverUrl = "https://twel5gts8zzs.usemoralis.com:2053/server";
+        const appId = "PfbWNMjMnNt7Fdsa7BOrXBymJZSrqfvZuRlprL3B";
         Moralis.start({ serverUrl, appId });
 
 /** Add from here down */
@@ -29,7 +29,7 @@ async function logOut() {
 
     let options = {
 
-      contractAddress: "0x43a172c44dC55c2B45BF9436cF672850FC8bA046",
+      contractAddress: "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
 
       functionName: "approve",
 
