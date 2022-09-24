@@ -1,33 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.container {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 56.25%; /* 4:3 Aspect Ratio */
-}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Test Layout</title>
+        <style type="text/css">
+            body, html
+            {
+                margin: 0; padding: 0; height: 100%; overflow: hidden;
+            }
 
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-</style>
-</head>
-<body>
-
-
-<div class="container"> 
-  <iframe class="responsive-iframe" src="https://beacons.ai/kingmakerng"></iframe>
-</div>
-
-</body>
+            #content
+            {
+                position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <iframe width="100%" height="100%" frameborder="0" src="http://cnn.com"></iframe>
+        </div>
+    </body>
 </html>
