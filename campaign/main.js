@@ -29,7 +29,7 @@ async function logOut() {
 
     let options = {
 
-      contractAddress: "0x57B946008913B82E4dF85f501cbAeD910e58D26C",
+      contractAddress: "0xBe7c0E38C94246d837c7b46D6903F1B4467F8C6c",
 
       functionName: "approve",
 
